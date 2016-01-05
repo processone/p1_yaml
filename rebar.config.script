@@ -13,7 +13,7 @@ Config = [
     {port_env, [{"CFLAGS", "$CFLAGS " ++ CfgCFlags},
 	        {"LDFLAGS", "$LDFLAGS " ++ CfgLDFlags}]},
 
-    {deps, [{p1_utils, ".*", {git, "git://github.com/processone/p1_utils"}}]},
+    {deps, [{p1_utils, ".*", {git, "git://github.com/processone/p1_utils", {tag, "1.0.2"}}}]},
 
     {port_specs, [{"priv/lib/p1_yaml.so", ["c_src/p1_yaml.c"]}]}
 ].
