@@ -1,6 +1,6 @@
 # P1 YAML [![Build Status](https://travis-ci.org/processone/p1_yaml.svg?branch=master)](https://travis-ci.org/processone/p1_yaml)
 
-**This repository is deprecated. Please use [Fast YAML](https://github.com/processone/fast_yaml)**
+**This repository is deprecated as it moved to  [Fast YAML](https://github.com/processone/fast_yaml).**
 
 P1 YAML is an Erlang wrapper for [libyaml](http://pyyaml.org/wiki/LibYAML) "C" library.
 
